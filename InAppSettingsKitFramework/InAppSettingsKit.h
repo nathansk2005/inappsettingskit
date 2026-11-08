@@ -12,15 +12,21 @@
 FOUNDATION_EXPORT double InAppSettingsKitVersionNumber;
 
 //! Project version string for InAppSettingsKit.
-FOUNDATION_EXPORT const unsigned char InAppSettingsKitFrameworkVersionString[];
+FOUNDATION_EXPORT const unsigned char InAppSettingsKitVersionString[];
 
 #import <InAppSettingsKit/IASKAppSettingsViewController.h>
 #import <InAppSettingsKit/IASKAppSettingsWebViewController.h>
+#import <InAppSettingsKit/IASKColor.h>
+#import <InAppSettingsKit/IASKDatePicker.h>
+#import <InAppSettingsKit/IASKDatePickerViewCell.h>
+#import <InAppSettingsKit/IASKEmbeddedDatePickerViewCell.h>
+#import <InAppSettingsKit/IASKMultipleValueSelection.h>
 #import <InAppSettingsKit/IASKPSSliderSpecifierViewCell.h>
 #import <InAppSettingsKit/IASKPSTextFieldSpecifierViewCell.h>
 #import <InAppSettingsKit/IASKSettingsReader.h>
 #import <InAppSettingsKit/IASKSettingsStore.h>
 #import <InAppSettingsKit/IASKSettingsStoreFile.h>
+#import <InAppSettingsKit/IASKSettingsStoreInMemory.h>
 #import <InAppSettingsKit/IASKSettingsStoreUserDefaults.h>
 #import <InAppSettingsKit/IASKSlider.h>
 #import <InAppSettingsKit/IASKSpecifier.h>
